@@ -201,10 +201,10 @@ to recolor ;; recolors agent
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-26
-370
-454
-799
+224
+21
+652
+450
 -1
 -1
 12.73
@@ -228,10 +228,10 @@ ticks
 30.0
 
 BUTTON
-103
-92
-178
-125
+2
+132
+60
+168
 Setup
 setup
 NIL
@@ -245,10 +245,10 @@ NIL
 1
 
 BUTTON
-177
-92
-258
-125
+60
+133
+130
+166
 Start
 go
 T
@@ -262,10 +262,10 @@ NIL
 1
 
 SLIDER
-102
-286
-352
-319
+1
+329
+218
+362
 recover_probability
 recover_probability
 0
@@ -277,10 +277,10 @@ NIL
 HORIZONTAL
 
 SLIDER
-104
-320
-355
-353
+3
+363
+217
+396
 fatal_probability
 fatal_probability
 0
@@ -292,10 +292,10 @@ NIL
 HORIZONTAL
 
 SLIDER
-104
-124
-351
-157
+3
+167
+220
+200
 number_turtles
 number_turtles
 0
@@ -307,10 +307,10 @@ NIL
 HORIZONTAL
 
 PLOT
-13
-827
-489
-1114
+3
+457
+648
+744
 plot 1
 NIL
 NIL
@@ -331,10 +331,10 @@ PENS
 "total cases" 1.0 0 -11221820 true "" "plot count turtles with [exposed?] + count turtles with [infected?] +  count turtles with [quarantined?] + count turtles with [asymptomatic?]"
 
 SWITCH
-258
-92
-351
-125
+127
+135
+220
+168
 connection
 connection
 0
@@ -342,10 +342,10 @@ connection
 -1000
 
 SLIDER
-103
-157
-350
-190
+2
+200
+220
+233
 contact_probability
 contact_probability
 0
@@ -357,10 +357,10 @@ NIL
 HORIZONTAL
 
 SLIDER
-103
-188
-350
-221
+2
+231
+219
+264
 infectious_probability
 infectious_probability
 0
@@ -372,25 +372,25 @@ NIL
 HORIZONTAL
 
 SLIDER
-102
-253
-351
-286
+1
+296
+218
+329
 hospitalized_probability
 hospitalized_probability
 0
 1
-0.8
+0.75
 0.05
 1
 NIL
 HORIZONTAL
 
 SLIDER
-101
-220
-353
-253
+0
+263
+219
+296
 manifestation_probability
 manifestation_probability
 0
